@@ -1,19 +1,13 @@
 ---
 title: Slik bruker du koblinger i dokumentasjonen
 description: Denne artikkelen gir råd om hvordan du oppretter koblinger til innhold i docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 06/29/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
-ms.openlocfilehash: 1699e57ac6a4dc4c5a1ef099ea183b3cbc6307cd
-ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
+ms.openlocfilehash: a66e2fb4febf1947afe01919b96b1c10873cf57d
+ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34469536"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36239730"
 ---
 # <a name="using-links-in-documentation"></a>Bruke koblinger i dokumentasjon
 Denne artikkelen beskriver hvordan du bruker hyperkoblinger fra sider som er plassert på docs.microsoft.com. Koblinger er enkle å legge til i markdown med noen få varierende konvensjoner. Kobler punktbrukere innhold på samme side, lenker til andre nærliggende sider, eller lenker til URL-adresser og eksterne områder.
@@ -63,7 +57,10 @@ Hvis du vil opprette en innebygd kobling fra en teknisk Docs-artikkel til en ann
   `[link text](../directory/article-name.md)`
 
 - En artikkel lenker på tvers av docsets (selv om det er i det samme repositoriet): `[link text](./directory/article-name)`
-  
+
+> [!IMPORTANT]
+> Det er ikke brukt `~/` som en del av koblingen i noen av eksemplene over. Hvis du oppretter en kobling til roten i repositoriet, starter du med `/`. Hvis du inkluderer `~/`, blir koblingene ugyldige når du navigerer i kilderepositorier i GitHub. Hvis du starter banen med `/`, fungerer koblingene som de skal.
+
 ## <a name="links-to-anchors"></a>Koblinger til forankringer
 
 Du trenger ikke opprette forankringer. De genereres automatisk på publiseringstidspunktet for alle H2-overskrifter. Det eneste du trenger å gjøre er å opprette koblinger til delene H2.

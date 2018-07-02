@@ -1,19 +1,13 @@
 ---
 title: Docs stilguide – Hurtigstart
 description: Denne artikkelen er en kortfattet veiledning for stilvurderinger, som inneholder de grunnleggende emnene for å komme i gang med docs.microsoft.com.
-author: bryanla
-ms.author: bryanla
-manager: mbaldwin
 ms.date: 07/25/2017
-ms.prod: non-product-specific
-ms.topic: contributor-guide
-ms.custom: external-contributor-guide
-ms.openlocfilehash: 74f78b72f61cfebddb0cb03b73a3a806f4fe4a10
-ms.sourcegitcommit: 782b689882cce3ce07f5613763322989f2d0d63f
+ms.openlocfilehash: 34cd0dc1760f2a569f8bfec782f04b2691a74470
+ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34469398"
+ms.lasthandoff: 06/19/2018
+ms.locfileid: "36239607"
 ---
 # <a name="docs-style-and-voice-quick-start"></a>Docs stilguide og hurtigstart for tale
 
@@ -56,5 +50,6 @@ De tekniske artiklene våre oversettes til flere språk, og noen tilpasses for s
 ## <a name="localized-documentation"></a>Lokalisert dokumentasjon
 
 - Hvis du bidrar med lokalisert dokumentasjon, kan du se i [Microsoft-språkportalen](https://www.microsoft.com/Language/Default.aspx).
-- For lokaliseringsretningslinjer, informasjon om språkstil og -bruk i tekniske publikasjoner og informasjon om markedsspesifikke dataformater, kan du laste ned [stilguiden](https://www.microsoft.com/Language/StyleGuides.aspx) på ditt språk.
-- For Microsoft-lokalisert terminologi, søk etter [produktspesifikk godkjent terminologi](https://www.microsoft.com/Language/Search.aspx) eller last ned [Microsoft-terminologisamlingen](https://www.microsoft.com/Language/Terminology.aspx) på ditt språk.
+- For lokaliseringsretningslinjer, informasjon om språkstil og -bruk i tekniske publikasjoner og informasjon om markedsspesifikke dataformater, kan du laste ned [stilguiden](https://www.microsoft.com/Language/StyleGuides) på ditt språk.
+- For Microsoft-lokalisert terminologi, søk etter [produktspesifikk godkjent terminologi](https://www.microsoft.com/Language/Default.aspx) eller last ned [Microsoft-terminologisamlingen](https://www.microsoft.com/Language/Terminology.aspx) på ditt språk.
+- Du kan finne ut mer i [lokaliseringsdelen](https://docs.microsoft.com/style-guide/global-communications/) i Microsofts stilguide.
