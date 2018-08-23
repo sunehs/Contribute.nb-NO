@@ -2,22 +2,22 @@
 title: Docs stilguide – Hurtigstart
 description: Denne artikkelen er en kortfattet veiledning for stilvurderinger, som inneholder de grunnleggende emnene for å komme i gang med docs.microsoft.com.
 ms.date: 07/25/2017
-ms.openlocfilehash: 34cd0dc1760f2a569f8bfec782f04b2691a74470
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 3a91669ba9ad6711bcc436952d1d6cb311b9d4f6
+ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239607"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40243027"
 ---
 # <a name="docs-style-and-voice-quick-start"></a>Docs stilguide og hurtigstart for tale
 
-Denne hurtigstarten krever minimalt med tid, men den vil gi deg en ide av hvordan du bruker du viktigste Docs-stilkonseptene nar du skriver artikler for docs.microsoft.com. Disse retningslinjene gjelder om du oppretter ny dokumentasjon eller oppdaterer eksisterende dokumentasjon.
+Denne hurtigstarten er en kort veiledning i å skrive teknisk innhold som skal publiseres på docs.microsoft.com. Disse retningslinjene gjelder om du oppretter ny dokumentasjon eller oppdaterer eksisterende dokumentasjon.
 
-Som et minimum, bør du:
+Anbefalt fremgangsmåte:
 
 - Kontrollere staving og grammatikk i artikler, selv om du må kopiere og lime inn i Word for å gjøre det.
 - Bruk en uformell og vennlig tale – som om du snakker med en annen person en-til-en.
-- Bruk enkle setninger. De er lettere å forstå, og de er enklere å oversette av både menneskelige og maskinoversettere.
+- Bruk enkle setninger. Setninger som er enkle å lese, gjør at leseren raskt kan bruke veiledningen du deler.
 
 ## <a name="use-the-microsoft-voice-principles"></a>Bruk Microsoft-taleprinsippene
 

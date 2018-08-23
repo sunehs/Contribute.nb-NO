@@ -5,18 +5,18 @@ author: jasonwhowell
 ms.author: jasonh
 manager: kfile
 ms.date: 04/30/2018
-ms.openlocfilehash: 00631485f1f4eed9e0de2f6df98d973a819dfe4d
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 9f22a416810711c076645a9483f022112a3a7642
+ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36238924"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40251460"
 ---
 # <a name="install-content-authoring-tools"></a>Installer innholdsredigeringsverktøy
 
 Denne artikkelen beskriver fremgangsmåten for interaktiv installering av Git-klientverktøy og kode for Visual Studio.
 > [!div class="checklist"]
-> * Installer [Git for Windows](https://git-scm.com/download/win)
+> * Installer [Git](https://git-scm.com/)
 > * Installer [Visual Studio Code](https://code.visualstudio.com/)
 > * Installer [Docs Authoring Pack](https://marketplace.visualstudio.com/items?itemName=docsmsft.docs-authoring-pack)
 
@@ -25,9 +25,13 @@ Denne artikkelen beskriver fremgangsmåten for interaktiv installering av Git-kl
 >
 > Viktige bidragsytere oppfordres til å fullføre disse trinnene, som gjør det mulig å bruke [arbeidsflyten for store/tidkrevende endringer](how-to-write-workflows-major.md). Selv om du har skrivetillatelser i hovedrepositoriet, *anbefaler vi på det sterkeste (og denne veiledningen forutsetter) at du forgrener og kloner repositoriet*, slik at du har lese/skrivetillatelser til å lagre de foreslåtte endringene i din forgrening.
 
-## <a name="install-git-client-tools-on-windows"></a>Installer Git-klientverktøy på Windows
+## <a name="install-git-client-tools"></a>Installer Git-klientverktøy 
 
- Installer den nyeste versjonen av [Software Freedom Conservancys Git-klientverktøy](https://git-scm.com/download/). Installereringen inkluderer Git-versjonens kontrollsystem og Git Bash, kommandolinjeappen som du bruker for interaksjon med ditt lokale Git-repositorium.
+ Installer den nyeste versjonen av [Git-klientverktøyene til Software Freedom Conservancy](https://git-scm.com/download/) for plattformen din. 
+
+* [Git for Windows](https://git-scm.com/download/win). Installeringen inkluderer Git-versjonens kontrollsystem og Git Bash, kommandolinjeappen som du bruker i samhandling med ditt lokale Git-repositorium.
+* Git for Mac tilbys som del av kommandolinjeverktøyene for Xcode. Bare kjør `git` fra kommandolinjen. Du vil bli bedt om å installere kommandolinjeverktøyene hvis det ikke allerede er gjort. Du kan også laste ned [Git for Mac](https://git-scm.com/download/mac) fra Software Freedom Conservancy.
+* [Git for Linux og Unix](https://git-scm.com/download/linux)
 
 Hvis du foretrekker et grafisk brukergrensesnitt (GUI) fremfor et kommandolinjegrensesnitt (CLI), kan du se [Software Freedom Conservancys tilgjengelige GUI-klientside](https://git-scm.com/downloads/guis), [GitHubs GitHub Desktop](https://desktop.github.com/), eller [ Visual Studio Code](https://www.visualstudio.com/products/code-vs.aspx) for noen populære alternativer.
 

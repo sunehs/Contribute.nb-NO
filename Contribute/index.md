@@ -5,18 +5,18 @@ author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 04/17/2018
-ms.openlocfilehash: a0c52fea8f3a57cdfe89c2cd7a24ef7b511ada7c
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: 6206f61a69c14575a726da9ce64ad0b765c7aa87
+ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239773"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40251422"
 ---
 # <a name="microsoft-docs-contributor-guide-overview"></a>Oversikt over håndboken Microsoft Docs-bidragsyter
 
 Velkommen til [docs.microsoft.com](https://docs.microsoft.com) (Docs) bidragsyterguiden!
 
-Flere av dokumentasjonssettene våre er åpen kilde og driftes av GitHub. Flere team begynner å bruke denne modellen hele tiden. Til og med dokumentasjonssett som ikke er fullstendig åpen kilde, har repositorier som er åpne for publikum, der du kan gjøre pull-forespørsler. Det gjør prosessen enklere og forbedrer kommunikasjon mellom produktutviklerne, innholdsgruppen og kundene. Du oppnår flere fordeler når du ikke skjuler hva du jobber med:
+Flere av dokumentasjonssettene våre er åpen kilde og driftes av GitHub. Stadig flere hos Microsoft har begynt å bruke denne modellen hele tiden. Til og med dokumentasjonssett som ikke er fullstendig åpen kilde, har repositorier som er åpne for publikum, der du kan gjøre pull-forespørsler. Det gjør prosessen enklere og forbedrer kommunikasjon mellom produktutviklerne, innholdsgruppen og kundene. Du oppnår flere fordeler når du ikke skjuler hva du jobber med:
 
 - Repositorier for åpen kilde viser hva de planlegger, for å få tilbakemeldinger om hvilken dokumentasjon som trengs mest.
 - Repositorier for åpen kilde viser hva de går gjennom, slik at de kan publisere det nyttigste innholdet i første utgivelse.
