@@ -2,12 +2,12 @@
 title: Slik bruker du koblinger i dokumentasjonen
 description: Denne artikkelen gir råd om hvordan du oppretter koblinger til innhold i docs.microsoft.com.
 ms.date: 06/29/2017
-ms.openlocfilehash: a66e2fb4febf1947afe01919b96b1c10873cf57d
-ms.sourcegitcommit: 92aef5ea8bdd692c5c393d5c8f99b9e4f672ef2b
+ms.openlocfilehash: dad0460cfb36594c17cef1b079c5fc14191f56f7
+ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "36239730"
+ms.lasthandoff: 08/10/2018
+ms.locfileid: "40251479"
 ---
 # <a name="using-links-in-documentation"></a>Bruke koblinger i dokumentasjon
 Denne artikkelen beskriver hvordan du bruker hyperkoblinger fra sider som er plassert på docs.microsoft.com. Koblinger er enkle å legge til i markdown med noen få varierende konvensjoner. Kobler punktbrukere innhold på samme side, lenker til andre nærliggende sider, eller lenker til URL-adresser og eksterne områder.
@@ -148,12 +148,12 @@ Strukturen til URL-adressen:
 
 &lt;kallenavn&gt;-delen er valgfri. Hvis det utelates, vil du bli henvist til den nyeste versjonen av innholdet. &lt;Tjenestenavn&gt;-delen er et av eksemplene som vises i følgende grunnleggende URL-adresser:
 
-- Azure PowerShell (AzureRM)-innhold: https://docs.microsoft.com/powershell/azure/
-- Azure PowerShell (ASM)-innhold: https://docs.microsoft.com/powershell/azure/ _servicemanagement_
-- Azure Active Directory (AzureAD) PowerShell-innhold: https://docs.microsoft.com/powershell/azure/_active-directory_
-- Azure Service Fabric PowerShell: https://docs.microsoft.com/powershell/azure/_service-fabric_
-- Azure Information Protection PowerShell: https://docs.microsoft.com/powershell/azure/_aip_
-- Azure Elastic DB Jobs PowerShell: https://docs.microsoft.com/powershell/azure/_elasticdbjobs_
+- Azure PowerShell (AzureRM)-innhold: [https://docs.microsoft.com/powershell/azure/](https://docs.microsoft.com/powershell/azure/)
+- Azure PowerShell (ASM)-innhold: [https://docs.microsoft.com/powershell/azure/_tjenesteadministrasjon_](https://docs.microsoft.com/powershell/azure/servicemanagement)
+- Azure Active Directory (AzureAD) PowerShell-innhold: [https://docs.microsoft.com/powershell/azure/_Active Directory_](https://docs.microsoft.com/powershell/azure/active-directory)
+- Azure Service Fabric PowerShell: [https://docs.microsoft.com/powershell/azure/_Service Fabric_](https://docs.microsoft.com/powershell/azure/service-fabric)
+- Azure Information Protection PowerShell: [https://docs.microsoft.com/powershell/azure/_aip_](https://docs.microsoft.com/powershell/azure/aip)
+- Azure elastiske DB-jobber PowerShell: [https://docs.microsoft.com/powershell/azure/_elastiske DB-jobber_](https://docs.microsoft.com/powershell/azure/elasticdbjobs)
 
 Når du bruker disse URL-ene, blir du omdirigert til den nyeste versjonen av innholdet. På denne måten trenger du ikke å angi et versjonskallenavn. Og du har ikke koblinger til konseptuelt innhold som må oppdateres når versjonen endres.
 
