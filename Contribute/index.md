@@ -5,12 +5,12 @@ author: billwagner
 ms.author: wiwagn
 manager: wpickett
 ms.date: 04/17/2018
-ms.openlocfilehash: 6206f61a69c14575a726da9ce64ad0b765c7aa87
-ms.sourcegitcommit: 886ca76086a302d1d6124967df12a5bcfe4fd4b5
+ms.openlocfilehash: 94fad6f4b2faeefff687eb57cd2de8a0fb5bbbf3
+ms.sourcegitcommit: 5e508a7ad2991632a38f302e4769b36e3bf37eb2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/10/2018
-ms.locfileid: "40251422"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43308897"
 ---
 # <a name="microsoft-docs-contributor-guide-overview"></a>Oversikt over håndboken Microsoft Docs-bidragsyter
 
@@ -31,7 +31,7 @@ Brukeropplevelsen på [docs.microsoft.com](https://docs.microsoft.com) integrere
 
 ## <a name="quick-edits-to-existing-documents"></a>Rask redigering av eksisterende dokumenter
 
-Rask redigering gjør det enklere å rapportere og fikse små feil og utelatelser i dokumentene. Små stavefeil og dårlig grammatikk sniker seg inn i publiserte dokumenter uansett hva man gjør. Du kan opprette et problem for å rapporterer en feil, men det er kjappere og enklere å opprette en pull-forespørsel for å fikse det. Nesten alle artikler har en redigeringsknapp, som vist i den neste illustrasjonen. Hvis du klikker på **Redigering**-knappen, blir du ført til kildefilen på GitHub.
+Rask redigering gjør det enklere å rapportere og fikse små feil og utelatelser i dokumentene. Små stavefeil og dårlig grammatikk sniker seg inn i publiserte dokumenter uansett hva man gjør. Du kan opprette et problem for å rapporterer en feil, men det er kjappere og enklere å opprette en pull-forespørsel for å fikse det. Nesten alle artikler har en redigeringsknapp, som vist i den neste illustrasjonen. Hvis du klikker på **Rediger**-knappen (eller en lokalisert ekvivalent), blir du ført til kildefilen på GitHub.
 
 ![Plassering av Rediger-koblingen](./media/index/edit-article.png)
 
@@ -46,6 +46,12 @@ Rull til bunnen av siden når du er ferdig med redigeringen. Skriv inn en tittel
 
 ![foreslår endringen](./media/index/submit-pull-request.png)
 
+Nå som du har foreslått endringen, må du spørre eierne av repositoriet om å «hente» endringene til repositoriet deres. Dette gjøres ved hjelp av noe som kalles en «pull-forespørsel». Når du klikket på **Foreslå filendring** i illustrasjonen over, skulle du ha blitt ført til en ny side, som ser ut som følgende illustrasjon:
+
+![opprett pull-forespørsel](media/index/create-pull-request.png)
+
+Klikk på **Opprett pull-forespørsel**, skriv inn en tittel (og eventuelt en beskrivelse) for pull-forespørselen, og klikk deretter på **Opprett pull-forespørsel** en gang til.
+
 Det var det! Medlemmer av innholdsgruppen vil gå gjennom og implementere pull-forespørselen. Hvis du har gjort store endringer kan du få tilbakemeldinger med forespørsler om endringer.
 
 Brukergrensesnittet for redigering på GitHub reagerer på tillatelsene du har på repositoriet. De viste bildene viser hvordan det ser ut for brukere som ikke har skrivetillatelse for målrepositoriet. GitHub oppretter automatisk en forgrening av målrepositoriet i kontoen din. Hvis du har skrivetillatelse for målrepositoriet, blir det oppretter GitHub en ny gren der. Grenen får et navn som følger mønsteret **\<GitHubID\>-oppdatering-n**, og bruker din GitHub-ID og et nummer som identifiserer oppdateringsgrenen.
@@ -53,6 +59,12 @@ Brukergrensesnittet for redigering på GitHub reagerer på tillatelsene du har p
 Vi bruker pull-forespørsler til alle endringer, til og med for bidragsytere med skrivetillatelse. `master`-grenen er beskyttet i de fleste repositorier, og oppdateringer må utføres som pull-forespørsler.
 
 Redigering i nettleser er best for små endringer og for endringer som ikke skjer ofte. Hvis du leverer store bidrag eller bruker avanserte Git-funksjoner (for eksempel grenadministrering eller løsing av avanserte sammenslåingskonflikter),må du [opprette en forgrening av repositoriet og arbeide lokalt](how-to-write-workflows-major.md).
+
+> [!NOTE]
+> Hvis aktivert, kan du redigere en artikkel på **alle språk**, og, avhengig av redigeringen, kommer følgende til å skje:
+> 1. alle lingvistiske endringer som er godkjent, hjelper også med å forbedre motoren for maskinoversettelse
+> 2. all redigering som endrer innholdet i artikkelen vesentlig, behandles internt for å sende inn endringen i den samme artikkelen på engelsk, slik at den blir lokalisert på alle språk, hvis den godkjennes.
+> Foreslåtte forbedringer vil med andre ord ikke bare påvirke artiklene positivt på ditt eget språk, men på alle tilgjengelige språk.
 
 ## <a name="review-open-prs"></a>Gå gjennom åpne pull-forespørsler
 
